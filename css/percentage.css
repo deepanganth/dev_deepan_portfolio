@@ -1,0 +1,82 @@
+.flex-wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 40rem;
+  height: 5rem;
+}
+
+.single-chart {
+  width: 20%;
+  justify-content: space-around ;
+}
+
+.circular-chart {
+  display: block;
+  margin: 10px auto;
+  width: 4rem;
+  height: 4rem;
+  border-radius:10px;
+  -webkit-box-shadow: 0px 0px 17px 0px rgba(196,196,196,1);
+-moz-box-shadow: 0px 0px 17px 0px rgba(196,196,196,1);
+box-shadow: 0px 0px 17px 0px rgba(196,196,196,1);
+  
+}
+
+.circle-bg {
+  fill: none;
+  stroke: #333;
+  stroke-width: 2.8;
+  
+}
+
+.circle {
+  fill: none;
+  stroke-width: 2.8;
+  animation: progress 1s ease-out forwards;
+}
+
+@keyframes progress {
+  0% {
+    stroke-dasharray: 0 100;
+  }
+}
+
+.circular-chart.python .circle {
+  stroke: #4CC790;
+}
+
+.circular-chart.java .circle {
+  stroke: #4CC790;
+}
+
+.circular-chart.c .circle {
+  stroke: #4CC790;
+}
+
+.circular-chart.cp .circle {
+  stroke: #4CC790;
+}
+
+.circular-chart.ch .circle {
+  stroke: #4CC790;
+}
+
+.circular-chart.kotlin .circle {
+  stroke: #4CC790;
+}
+
+.circular-chart.yellow .circle {
+  stroke: #4CC790;
+}
+.circular-chart.yellow .circle {
+  stroke: #4CC790;
+}
+
+
+
+.percentage {
+  fill: #666;
+  font-family: sans-serif;
+  font-size: 0.5em;
+  text-anchor: middle;
+}
