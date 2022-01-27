@@ -58,7 +58,7 @@ div a{
     height: 100vh;
     width: 100%;
     position: relative;
-    background: url(/background1.jpg);
+    background: url(background1.jpg);
     background-repeat: no-repeat;
     background-size: 130% 110%;
     display: flex;
@@ -127,7 +127,7 @@ div a{
 
 /*about section start*/
 .about-section{
-    background: url(/aboutpage3.jpg);
+    background: url(aboutpage3.jpg);
     box-sizing: border-box;
     background-size: cover;
     height: 120vh;
@@ -203,7 +203,7 @@ div a{
 .skill-section{
     width: 100%;
     height: 130vh;
-    background: url(/background2.jpg);
+    background: url(background2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-size: 100% 130vh;
