@@ -177,7 +177,7 @@ div a{
     font-size: 2rem;
 }
 .about-content span img{
-    width: 2rem;
+    width: 3rem;
     height: 2rem;
     margin-bottom: -0.5rem;
     padding-right: 10px;
@@ -212,7 +212,7 @@ div a{
     margin-top: 0;
     margin-left: 1rem;
     font-size: 3rem;
-    font-family: 'Sedgwick Ave', cursive;
+    font-family: 'Russo One', sans-serif;
     text-align: center;
     padding: 1rem;
 }
@@ -231,15 +231,14 @@ div a{
     height: 5rem;
     padding-right: 1.5rem;
 }
-.line{
-    width: 40rem;
-    margin-left: 1rem;
+.programming-section{
     display: flex;
+    width: 100%;
     justify-content: space-around;
 }
-.line img{
-    width: 20px;
-    height: 3rem;
+.programming{
+    display: flex;
+    flex-direction: column;
 }
 /*skill section end*/
 
@@ -317,6 +316,7 @@ div a{
     }
     .navbar{
         width: 130vw;
+        display: flex;
     }
     .hero-section{
         background-size: cover;
@@ -324,8 +324,13 @@ div a{
         height: 60vh;
     }
     .dev img{
-        width: 8.5rem;
-        height: 2rem;
+        width: 7rem;
+        height: 1.5rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .nav{
+        display: none;
     }
     .hero-section h1{
         font-size: 3rem;
@@ -333,7 +338,7 @@ div a{
     .about-section{
         display: block;
         width: 130vw;
-        height: 165vh;
+        height: 145vh;
     }
     .dev_deepan{
         width: 100%;
@@ -379,6 +384,18 @@ div a{
     }
     .flex-wrapper{
         display: none !important;
+    }
+    .programming-section{
+        display: none;
+    }
+    .about-content p{
+        font-size: 1rem;
+    }
+    .about-content h1{
+        font-size: 2rem;
+    }
+    .about-content h3{
+        font-size: 1rem;
     }
 }
 
